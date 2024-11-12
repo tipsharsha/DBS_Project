@@ -1,0 +1,14 @@
+drop table hashtag_follow cascade constraints;
+drop table hashtags cascade constraints;
+drop table follows cascade constraints;
+drop table comment_likes cascade constraints;
+drop table post_likes cascade constraints;
+drop table comments cascade constraints;
+drop table videos cascade constraints;
+drop table photos cascade constraints;
+drop table post cascade constraints;
+drop table users cascade constraints;
+drop table post_tags cascade constraints;
+drop table login cascade constraints;
+drop table location cascade constraints;
+clear screen;
