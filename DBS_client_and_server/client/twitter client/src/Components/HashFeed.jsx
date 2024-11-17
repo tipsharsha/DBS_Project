@@ -21,9 +21,7 @@ function HashFeed() {
         }
 
         if (response.ok) {
-          console.log(response);
           const data = await response.json();
-          console.log(data);
           setPosts(data);
         } else {
           const errorText = await response.text();
@@ -39,16 +37,13 @@ function HashFeed() {
   }, []);
 
   const handlePostClick = (postId) => {
-  
-    console.log(postId);
     navigate(`/postdetails/${postId}`);
   };
 
   return (
     <div className="flex min-h-screen bg-gray-100">
-      <SideNavbar /> {/* Add the SideNavbar here */}
-      
-      <div className="flex-1 p-5">
+      <SideNavbar /> {/* SideNavbar remains fixed */}
+      <div className="flex-1 ml-64 p-5"> {/* Adjust margin-left for content */}
         <h1 className="text-3xl font-bold text-center mb-6 text-gray-800">Your Feed</h1>
         {errorMessage && <p className="text-red-500 text-center">{errorMessage}</p>}
 
@@ -119,4 +114,3 @@ function HashFeed() {
 }
 
 export default HashFeed;
-``

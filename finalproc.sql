@@ -16,6 +16,9 @@ BEGIN
 
     INSERT INTO login(user_id)
     VALUES (user_id);
+
+    --Set random profile photo
+    --SELECT 'https://picsum.photos/100?' || DBMS_RANDOM.VALUE(1, 1000000) INTO profile_photo_url FROM dual;
     
     DBMS_OUTPUT.PUT_LINE('User Created with ID: ' || user_id);
 
@@ -24,6 +27,8 @@ BEGIN
     COMMIT;
 END;
 /
+
+
 
 
 -- procedure to create a new login
@@ -260,8 +265,7 @@ END;
 CREATE OR REPLACE PROCEDURE add_comment_to_post(
     post_id_in IN NUMBER,
     user_id_in IN NUMBER,    
-    comment_text_in IN VARCHAR2,
-    comments_cursor OUT SYS_REFCURSOR
+    comment_text_in IN VARCHAR2
 )
 IS
 BEGIN
@@ -271,6 +275,7 @@ BEGIN
 
     DBMS_OUTPUT.PUT_LINE('Comment Added to Post');
 END;
+/
 
 
 --PROFILE PAGE 
@@ -630,4 +635,4 @@ END;
 
 
 
-clear screen;
+-- clear screen;
