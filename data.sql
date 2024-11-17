@@ -167,64 +167,64 @@ INSERT INTO post (user_id, caption) VALUES (20, 'Sunlit fields and open skies');
 
 -- Photos and Videos for Posts 81-100
 
-INSERT INTO photos (photo_url, post_id, photo_size) VALUES ('https://picsum.photos/500/300', 81, 3.5);
-INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://www.example.com/video1.mp4', 81, 8.0);
+INSERT INTO photos (photo_url, post_id, photo_size) VALUES ('https://picsum.photos/200', 81, 3.5);
+INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1/test_1/segments/bigbuck_bunny_8bit_15000kbps_1080p_60.0fps_h264.mp4', 81, 8.0);
 
 INSERT INTO photos (photo_url, post_id, photo_size) VALUES ('https://picsum.photos/500/300', 82, 3.2);
-INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://www.example.com/video2.mp4', 82, 7.5);
+INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1/test_1/segments/bigbuck_bunny_8bit_15000kbps_1080p_60.0fps_h264.mp4', 82, 7.5);
 
 INSERT INTO photos (photo_url, post_id, photo_size) VALUES ('https://picsum.photos/500/300', 83, 4.0);
-INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://www.example.com/video3.mp4', 83, 6.5);
+INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1/test_1/segments/bigbuck_bunny_8bit_15000kbps_1080p_60.0fps_h264.mp4', 83, 6.5);
 
-INSERT INTO photos (photo_url, post_id, photo_size) VALUES ('https://picsum.photos/500/300', 84, 3.8);
+INSERT INTO photos (photo_url, post_id, photo_size) VALUES ('https://picsum.photos/100', 84, 3.8);
 INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://www.example.com/video4.mp4', 84, 7.2);
 INSERT INTO photos (photo_url, post_id, photo_size) VALUES ('https://picsum.photos/500/300', 85, 4.1);
-INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://www.example.com/video5.mp4', 85, 6.0);
+INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1/test_1/segments/bigbuck_bunny_8bit_15000kbps_1080p_60.0fps_h264.mp4', 85, 6.0);
 
 INSERT INTO photos (photo_url, post_id, photo_size) VALUES ('https://picsum.photos/500/300', 86, 3.9);
-INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://www.example.com/video6.mp4', 86, 8.5);
+INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1/test_1/segments/bigbuck_bunny_8bit_15000kbps_1080p_60.0fps_h264.mp4', 86, 8.5);
 
 INSERT INTO photos (photo_url, post_id, photo_size) VALUES ('https://picsum.photos/500/300', 87, 4.2);
-INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://www.example.com/video7.mp4', 87, 7.0);
+INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1/test_1/segments/bigbuck_bunny_8bit_15000kbps_1080p_60.0fps_h264.mp4', 87, 7.0);
 
 INSERT INTO photos (photo_url, post_id, photo_size) VALUES ('https://picsum.photos/500/300', 88, 3.7);
-INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://www.example.com/video8.mp4', 88, 6.8);
+INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1/test_1/segments/bigbuck_bunny_8bit_15000kbps_1080p_60.0fps_h264.mp4', 88, 6.8);
 
 INSERT INTO photos (photo_url, post_id, photo_size) VALUES ('https://picsum.photos/500/300', 89, 3.4);
-INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://www.example.com/video9.mp4', 89, 7.3);
+INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1/test_1/segments/bigbuck_bunny_8bit_15000kbps_1080p_60.0fps_h264.mp4', 89, 7.3);
 
 INSERT INTO photos (photo_url, post_id, photo_size) VALUES ('https://picsum.photos/500/300', 90, 4.3);
-INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://www.example.com/video10.mp4', 90, 8.0);
+INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1/test_1/segments/bigbuck_bunny_8bit_15000kbps_1080p_60.0fps_h264.mp4', 90, 8.0);
 
 INSERT INTO photos (photo_url, post_id, photo_size) VALUES ('https://picsum.photos/500/300', 91, 3.6);
-INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://www.example.com/video11.mp4', 91, 6.3);
+INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1/test_1/segments/bigbuck_bunny_8bit_15000kbps_1080p_60.0fps_h264.mp4', 91, 6.3);
 
 INSERT INTO photos (photo_url, post_id, photo_size) VALUES ('https://picsum.photos/500/300', 92, 4.1);
-INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://www.example.com/video12.mp4', 92, 7.8);
+INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1/test_1/segments/bigbuck_bunny_8bit_15000kbps_1080p_60.0fps_h264.mp4', 92, 7.8);
 
 INSERT INTO photos (photo_url, post_id, photo_size) VALUES ('https://picsum.photos/500/300', 93, 3.8);
-INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://www.example.com/video13.mp4', 93, 7.0);
+INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1/test_1/segments/bigbuck_bunny_8bit_15000kbps_1080p_60.0fps_h264.mp4', 93, 7.0);
 
 INSERT INTO photos (photo_url, post_id, photo_size) VALUES ('https://picsum.photos/500/300', 94, 4.0);
-INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://www.example.com/video14.mp4', 94, 6.7);
+INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1/test_1/segments/bigbuck_bunny_8bit_15000kbps_1080p_60.0fps_h264.mp4', 94, 6.7);
 
 INSERT INTO photos (photo_url, post_id, photo_size) VALUES ('https://picsum.photos/500/300', 95, 3.9);
-INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://www.example.com/video15.mp4', 95, 7.2);
+INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1/test_1/segments/bigbuck_bunny_8bit_15000kbps_1080p_60.0fps_h264.mp4', 95, 7.2);
 
 INSERT INTO photos (photo_url, post_id, photo_size) VALUES ('https://picsum.photos/500/300', 96, 4.2);
-INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://www.example.com/video16.mp4', 96, 6.8);
+INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1/test_1/segments/bigbuck_bunny_8bit_15000kbps_1080p_60.0fps_h264.mp4', 96, 6.8);
 
 INSERT INTO photos (photo_url, post_id, photo_size) VALUES ('https://picsum.photos/500/300', 97, 4.0);
-INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://www.example.com/video17.mp4', 97, 7.5);
+INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1/test_1/segments/bigbuck_bunny_8bit_15000kbps_1080p_60.0fps_h264.mp4', 97, 7.5);
 
 INSERT INTO photos (photo_url, post_id, photo_size) VALUES ('https://picsum.photos/500/300', 98, 3.7);
-INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://www.example.com/video18.mp4', 98, 8.1);
+INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1/test_1/segments/bigbuck_bunny_8bit_15000kbps_1080p_60.0fps_h264.mp4', 98, 8.1);
 
 INSERT INTO photos (photo_url, post_id, photo_size) VALUES ('https://picsum.photos/500/300', 99, 3.9);
-INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://www.example.com/video19.mp4', 99, 6.9);
+INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1/test_1/segments/bigbuck_bunny_8bit_15000kbps_1080p_60.0fps_h264.mp4', 99, 6.9);
 
 INSERT INTO photos (photo_url, post_id, photo_size) VALUES ('https://picsum.photos/500/300', 100, 4.1);
-INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://www.example.com/video20.mp4', 100, 7.4);
+INSERT INTO videos (video_url, post_id, video_size) VALUES ('https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1/test_1/segments/bigbuck_bunny_8bit_15000kbps_1080p_60.0fps_h264.mp4', 100, 7.4);
 
 
 -- COMMENTS

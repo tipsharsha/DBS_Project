@@ -113,15 +113,18 @@ const PostDetailsWithComments = () => {
         const fetchPostDetailsAndComments = async () => {
             setLoading(true);
             try {
+                
                 const postDetailsResponse = await fetch('http://localhost:3000/postdetails', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ post_id: postId }),
                 });
+                
 
                 if (postDetailsResponse.ok) {
                     const postData = await postDetailsResponse.json();
                     if (postData.length > 0) {
+                        console.log(postData);
                         setPostDetails(postData[0]);
                         setLikesCount(postData[0].likes_count);
                         setLiked(postData[0].liked_by_user);
